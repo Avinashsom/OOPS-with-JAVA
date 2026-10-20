@@ -9,6 +9,9 @@ OOP can organise the code in a better way and make it more reusable and maintain
 // WHAT IS CLASS?
 // A class is a bluePrint or template for creating objects.
 
+// What is an object?
+// An object is an instance of a class.
+
 Class Car {
     String name;
     String color;
@@ -22,7 +25,7 @@ Class Main {
     public static void main(String[] args) {
 
         // HERE WE ARE CREATING AN OBJECT OF CLASS CAR
-        Car myCar = new Car();
+        Car myCar = new Car(); // this is object creation
         myCar.name = "Toyota";
         myCar.color = "Red";
         myCar.start();
